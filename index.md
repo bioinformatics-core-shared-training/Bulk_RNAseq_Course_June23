@@ -1,5 +1,5 @@
 # Introduction to Bulk RNA-seq data analysis
-### 17th, 20th and 21st March 2023
+### 23rd, 26th, 27th Jun 2023
 #### Taught Hybrid
 #### Bioinformatics Training Facility, Craik-Marshall Building, Downing Site, University of Cambridge
 
@@ -8,13 +8,11 @@
 ## Instructors
 
 * Abigail Edwards - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Ashley D Sawle - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Sina Beier - MRC Toxicology Unit, University of Cambridge
-* Raquel Manzano Garcia - Cancer Research UK Cambridge Institute
-* Jonathon Price - Department of Biochemistry, University of Cambridge
+* Adam Reid - Gurdon Institute, University of Cambridge
+* Chandra Chilamakuri - Bioinformatics Core, Cancer Research UK Cambridge Institute
+* Jonathan Price - Department of Biochemistry, University of Cambridge
 * Jiayin Hong - Department of Biochemistry, University of Cambridge
-
-**Helpers**
+* Raquel Manzano Garcia - Cancer Research UK Cambridge Institute
 * Ulrika Yuan - Department of Biochemistry, University of Cambridge
 
 
@@ -41,8 +39,7 @@ as we go.
 >
 > __**Some basic experience of using a UNIX/LINUX command line is assumed**__
 >
-> __**Some R knowledge is assumed and essential. Without it, you
-> will struggle on this course.**__
+> __**Some R knowledge is assumed and essential. Without it, you will struggle on this course.**__
 > If you are not familiar with the R statistical programming language we
 > strongly encourage you to work through an introductory R course before
 > attempting these materials.
@@ -50,22 +47,17 @@ as we go.
 
 ## Shared Google Document
 
-This
-[Google Document](https://docs.google.com/document/d/1zClM_fTWQIECQUkzWSBGm66s0Giv6qaSkfM3KyCVd0c/edit?usp=sharing) contains useful information and links..
+This [Google Document]() contains useful information and links.
 
 Please use it to post any long form questions you have during the course.
 
-The trainers will be monitoring the document and will answer questions as quickly
-as they can.
+The trainers will be monitoring the document and will answer questions as quickly as they can.
 
 ## Introduce Yourself
 
-There is another Google Doc
-[Google Document](https://docs.google.com/document/d/1GGAJlyF45s8MyZjSIWh8JeC9AJ8DBA131D8kYRsM0h8/edit?usp=sharing)
-Please write a couple sentences here to introduce yourself to the class, tell
-us a bit about your background and what you hope to get out of this course.  If
-you are a student or staff at the University of Cambridge, tell us which
-Department you are in.
+There is another Google Doc [Google Document]().
+Please write a couple sentences here to introduce yourself to the class, tell us a bit about your background and what you hope to get out of this course.  
+If you are a student or staff at the University of Cambridge, tell us which Department you are in.
 
 
 ## Course etiquette
@@ -95,75 +87,74 @@ trainers will be monitoring the zoom at all times and communicating with the pre
 
 ## Timetable
 
-**This is the first time we have offered this course as a hybrid class, all times here should be
-regarded as aspirations**
-
 ### Day 1
 
-**Trainers:** Abbi, Ash, Jiayin, Sina, Jon (OL), Raquel (OL), Ulrika (OL)
+**Trainers in-room:** Chandra (OL AM), Adam (OL PM), Jiayin, Ulrika   
+**Trainers online:** Abbi, Jon, Raquel
 
-9:30 - 9:45 - Welcome! <!-- Abbi -->
+9:30 - 9:45 - Welcome! <!-- Hugo/Paul/Abbi -->
 
-9:45 - 10:15 - [Introduction to RNAseq
-Methods](Bulk_RNAseq_Course_Base/Markdowns/01_Introduction_to_RNAseq_Methods.html)- Sina Beier
+9:45 - 10:15 - [Introduction to RNAseq Methods](Bulk_RNAseq_Course_Base/Markdowns/01_Introduction_to_RNAseq_Methods.html) - Chandra
 
-10:15 - 11:00 [Raw read file format and
-QC](Bulk_RNAseq_Course_Base/Markdowns/02_FastQC_introduction.html) - Sina Beier
+10:15 - 11:00 [Raw read file format and QC](Bulk_RNAseq_Course_Base/Markdowns/02_FastQC_introduction.html) - Adam
     - [Practical](Bulk_RNAseq_Course_Base/Markdowns/02_FastQC_practical.html)
 <!--    - [Practical solutions](Bulk_RNAseq_Course_Base/Markdowns/02_FastQC_practical.Solutions.html)  -->
 
-11:00 - 13:30 [Alignment and Quantification of Gene Expression with Salmon](Bulk_RNAseq_Course_Base/Markdowns/03_Quantification_with_Salmon_introduction.html) - Ashley Sawle  
+11:00 - 13:30 [Alignment and Quantification of Gene Expression with Salmon](Bulk_RNAseq_Course_Base/Markdowns/03_Quantification_with_Salmon_introduction.html) - Adam
     - [Practical](Bulk_RNAseq_Course_Base/Markdowns/03_Quantification_with_Salmon_practical.html)  
-    - [Practical solutions](Bulk_RNAseq_Course_Base/Markdowns/03_Quantification_with_Salmon_practical.Solutions.html)
+<!--    - [Practical solutions](Bulk_RNAseq_Course_Base/Markdowns/03_Quantification_with_Salmon_practical.Solutions.html)  -->
     
 13:30 - 14:30 Lunch
 
-14:30 - 15:30 [QC of alignment](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_introduction.html) - Abbi Edwards
+14:30 - 15:30 [QC of alignment](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_introduction.html) - Chandra
 
   - [Practical](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_practical.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_practical.pdf))  
 <!--    - [Practical solutions](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_COntrol_practical.Solutions.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_practical.Solutions.pdf))    -->
 
-15.30 - 17.30 [Data Exploration in R](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.pdf)) - Jiayin Hong   
-- [Practical solutions](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.Solutions.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.Solutions.pdf))  
-- [Live script](Live_Scripts/data_exploration.R) 
+15.30 - 17.30 [Data Exploration in R](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.pdf)) - Jiayin
+<!-- - [Practical solutions](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.Solutions.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/05_Data_Exploration.Solutions.pdf))  -->
+<!-- - [Live script](Live_Scripts/data_exploration.R)  -->
+
 
 ### Day 2
 
-**Trainers:** Abbi, Ash, Jiayin, Jon, Sina (OL), Raquel (OL), Ulrika (OL)
+**Trainers in-room:** Jiayin, Chandra, Jon, Abbi (OL)  
+**Trainers online:** Adam, Raquel, Ulrika
 
 <!-- Welcome Announcements - Abbi -->
-9:30 - 10:15  [Introduction to RNAseq Analysis in
-R](Bulk_RNAseq_Course_Base/Markdowns/06_Introduction_to_RNAseq_Analysis_in_R.html) - Jiayin Hong
+9:30 - 10:15  [Introduction to RNAseq Analysis in R](Bulk_RNAseq_Course_Base/Markdowns/06_Introduction_to_RNAseq_Analysis_in_R.html) - Jiayin
 
 10:15 - 13:00 Statistical Analysis of Bulk RNAseq Data
 
-- Part I: [Statistics of RNA-seq analysis](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/RNA-seq_stats.pdf) - Abbi Edwards
+- Part I: [Statistics of RNA-seq analysis](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/RNA-seq_stats.pdf) - Chandra
 
-- Part II: [Linear Models in R and DESeq2](Bulk_RNAseq_Course_Base/Markdowns/07_Linear_Models.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/07_Linear_Models.pdf)) - Abbi Edwards  
+- Part II: [Linear Models in R and DESeq2](Bulk_RNAseq_Course_Base/Markdowns/07_Linear_Models.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/07_Linear_Models.pdf)) - Chandra
     - [Slides](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/Statistical_models_in_R_DESeq2.pdf) 
     - Find the worksheet in `Course_Materials/stats/models_in_r_worksheet.R`
 
 13:00 - 14:00 Lunch
 
-14:00 - 17:30 - [Differential Expression for RNA-seq](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.html)
-([pdf](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.pdf)) - Jon Price
-   - [practical solutions](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.Solutions.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.Solutions.pdf)) 
-  - [live script](Live_Scripts/DESEQ2SESSION.R)
+14:00 - 17:30 - [Differential Expression for RNA-seq](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.pdf)) - Jon
+<!--    - [practical solutions](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.Solutions.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.Solutions.pdf)) -->
+    - [live script](Live_Scripts/DESEQ2SESSION.R)
 <!--      - [extra models plots](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/Expl_all.pdf) -->
 
 ### Day 3
 
-**Trainers:** Abbi, Ash, Raquel, Sina (OL), Jon (OL), Jiayin (OL)
+Abbi, Adam, Chandra, Jiayin, Jon, Raquel, Ulrika
 
-9.30 - 9.45 - [Recap of Day 1 and 2](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/Analysis_of_RNA-seq_data_day3recap.pdf) - Abbi Edwards
+**Trainers in-room:** Abbi, Adam, Raquel, Jiyain (OL)  
+**Trainers online:** Jon, Chandra
 
-9.45 - 12.30 [Annotation and Visualisation of RNA-seq results](Bulk_RNAseq_Course_Base/Markdowns/09_Annotation_and_Visualisation.html) - Raquel Manzano Garcia
- <!-- - [practical solutions](Bulk_RNAseq_Course_Base/Markdowns/09_Annotation_and_Visualisation_Solutions.html)   -->
- <!-- - [live script](live_scripts/AandV.R) -->
+9.30 - 9.45 - [Recap of Day 1 and 2](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/Analysis_of_RNA-seq_data_day3recap.pdf) - Abbi
+
+9.45 - 12.30 [Annotation and Visualisation of RNA-seq results](Bulk_RNAseq_Course_Base/Markdowns/09_Annotation_and_Visualisation.html) - Raquel
+<!--  - [practical solutions](Bulk_RNAseq_Course_Base/Markdowns/09_Annotation_and_Visualisation_Solutions.html)  -->
+<!--  - [live script](Live_Scripts/AandV.R) -->
 
 12.30 - 13.30 Lunch
 
-13.30 - 16:30  [Gene-set testing](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing_introduction.html) - Abbi Edwards
+13.30 - 16:30  [Gene-set testing](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing_introduction.html) - Abbi
    - [Practical (html)](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing.html) [(rmd)](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing.Rmd) [(pdf)](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing.pdf)
   <!-- - [Practical solutions (html)](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing.Solutions.html) [(rmd)](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing.Solutions.Rmd) [(pdf)](Bulk_RNAseq_Course_Base/Markdowns/10_Gene_set_testing.Solutions.pdf) -->
   <!-- - [Live Script](live_scripts/GS.R) -->
