@@ -90,7 +90,7 @@ trainers will be monitoring the zoom at all times and communicating with the pre
 ### Day 1
 
 **Trainers in-room:** Chandra (OL AM), Adam (OL PM), Jiayin, Ulrika   
-**Trainers online:** Abbi, Jon, Raquel
+**Trainers online:** Abbi (AM), Jon, Raquel, Chandra (PM)
 
 9:30 - 9:45 - Welcome! <!-- Hugo/Paul/Abbi -->
 
@@ -106,7 +106,7 @@ trainers will be monitoring the zoom at all times and communicating with the pre
     
 13:30 - 14:30 Lunch
 
-14:30 - 15:30 [QC of alignment](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_introduction.html) - Chandra
+14:30 - 15:30 [QC of alignment](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_introduction.html) - Abbi
 
   - [Practical](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_practical.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_practical.pdf))  
 <!--    - [Practical solutions](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_COntrol_practical.Solutions.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/04_Quality_Control_practical.Solutions.pdf))    -->
