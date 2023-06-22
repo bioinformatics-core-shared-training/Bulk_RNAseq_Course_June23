@@ -89,7 +89,7 @@ trainers will be monitoring the zoom at all times and communicating with the pre
 
 ### Day 1
 
-**Trainers in-room:** Chandra (OL AM), Adam (OL PM), Jiayin, Ulrika   
+**Trainers in-room:** Chandra (OL AM), Adam (OL PM), Jiayin, Ulrika, Abbi (PM)   
 **Trainers online:** Abbi (AM), Jon, Raquel, Chandra (PM)
 
 9:30 - 9:45 - Welcome! <!-- Hugo/Paul/Abbi -->
