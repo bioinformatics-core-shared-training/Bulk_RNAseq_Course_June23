@@ -141,8 +141,8 @@ trainers will be monitoring the zoom at all times and communicating with the pre
 
 ### Day 3
 
-**Trainers in-room:** Abbi, Adam, Raquel, Jiayin (OL)  
-**Trainers online:** Jon, Chandra
+**Trainers in-room:** Abbi, Hugo, Raquel, Jiayin (OL)  
+**Trainers online:** Jon, Adam
 
 9.30 - 9.45 - [Recap of Day 1 and 2](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/Analysis_of_RNA-seq_data_day3recap.pdf) - Abbi
 
