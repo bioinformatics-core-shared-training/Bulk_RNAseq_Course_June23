@@ -136,7 +136,7 @@ trainers will be monitoring the zoom at all times and communicating with the pre
 
 14:00 - 17:30 - [Differential Expression for RNA-seq](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.pdf)) - Jon
     - [practical solutions](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.Solutions.html) ([pdf](Bulk_RNAseq_Course_Base/Markdowns/08_DE_analysis_with_DESeq2.Solutions.pdf))
-   - [live script](Live_Scripts/deseq_day2_afternoon.R)
+    - [live script](live_scripts/deseq_day2_afternoon.R)
     - [extra models plots](Bulk_RNAseq_Course_Base/additional_scripts_and_materials/Expl_all.pdf)
 
 ### Day 3
